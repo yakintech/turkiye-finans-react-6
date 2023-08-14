@@ -1,0 +1,5 @@
+ bir fonksiyon başka bir file da kullanılacaksa EXPORT EDİLMEK ZORUNDADIR!
+ Kullanacağımız dosyada da bu fonksiyonu ( veya değişkeni ) IMPORT ETMEK ZORUNDAYIZ
+
+Kaynak:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import

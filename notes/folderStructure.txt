@@ -1,0 +1,24 @@
+Klasör Yapısı
+
+node_modules
+projede kullandığım paketlerin olduğu klasör. IGNORE edilmiştir.
+
+
+public
+adından da anlaşılacağı üzere dışarıya açık klasörüm. projemdeki tek page (index.html) burada bulunur.
+
+src ( source )
+tüm kaynak kodlarımın olduğu ana klasör. bütün proje bu klasör içerinde oluşturduğum dosyalar ve klasörler üzerinden yönetilir.
+
+
+
+dosyalar
+.gitignore -> Git ignore file.
+tsconfig.json -> typescript konfigürasyon paketi
+readme -> proje readme file
+
+package.json -> Projede kullandığım TEMEL paketlerin olduğu, proje genel konfigürasyonlarının olduğu dosya ( project name, version )
+
+
+package-lock.json -> package.json üzerindeki TEMEL paketlerin alt paketlerinin kaynak urllerinin olduğu dosya
+

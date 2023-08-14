@@ -56,3 +56,4 @@ function ObjectArraySample() {
 }
 
 export default ObjectArraySample
+//&& ile gelen objenin null veya undefined kontrolünü gerçekleştiriyoruz!

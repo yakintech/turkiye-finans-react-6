@@ -1,8 +1,9 @@
 import Template1 from "./css/template/Template1"
+import ParentComp from "./props/ParentComp"
 
 function App() {
   return <>
-   <Template1/>
+   <ParentComp/>
   </>
 }
 

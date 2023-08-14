@@ -1,12 +1,8 @@
-import ArraySample from "./jsx/ArraySample"
-import IfElseSample from "./jsx/IfElseSample"
-import JsxIntro from "./jsx/JsxIntro"
-import ObjectArraySample from "./jsx/ObjectArraySample"
-import ObjectSample from "./jsx/ObjectSample"
+import Template1 from "./css/template/Template1"
 
 function App() {
   return <>
-  <ObjectArraySample/>
+   <Template1/>
   </>
 }
 

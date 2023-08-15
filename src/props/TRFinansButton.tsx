@@ -2,9 +2,10 @@ import React from 'react'
 
 function TRFinansButton(props: any) {
 
-    const { title, width, height } = props
+    const { title, width, height, hello } = props
 
     return (<>
+        <button onClick={hello}>Parent Func</button>
         <button style={{ backgroundColor: '#00baaa', width: width, height: height, border: 'none' }}>{title}</button>
     </>
     )

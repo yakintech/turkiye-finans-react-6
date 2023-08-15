@@ -6,9 +6,13 @@ function ParentComp() {
 
     //props olarak string, number, object, array HATTA function gönderebiliriz.
 
+    const hello = () => {
+        alert("PARENT COMP FUNCTION!!")
+    }
+
     return (<>
-    <TRFinansButton title="Hesaplama Araçları"/>
-        <ChildComp title="Türkiye Finans" countries={["İstanbuş", "İzmir", "Ankara"]} name="Çağatay" surname="Yıldız" age={18} />
+    <TRFinansButton hello={hello} title="Hesaplama Araçları"/>
+    <ChildComp title="Türkiye Finans" countries={["İstanbuş", "İzmir", "Ankara"]} name="Çağatay" surname="Yıldız" age={18} />
     </>
     )
 }

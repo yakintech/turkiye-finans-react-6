@@ -1,9 +1,8 @@
-import Template1 from "./css/template/Template1"
-import ParentComp from "./props/ParentComp"
+import StateArraySample from "./state/StateArraySample"
 
 function App() {
   return <>
-   <ParentComp/>
+   <StateArraySample/>
   </>
 }
 

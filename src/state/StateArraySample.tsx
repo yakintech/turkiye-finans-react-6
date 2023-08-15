@@ -2,6 +2,10 @@ import React, { useState } from 'react'
 
 function StateArraySample() {
 
+    console.log('State Array Sample rendered!');
+    
+
+
     //state içerisinde string, number, array, obje barındırabilir
     const [numbers, setnumbers] = useState([3, -2, 11]);
 

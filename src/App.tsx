@@ -1,10 +1,10 @@
-import StateArraySample from "./state/StateArraySample"
-import StateArraySample2 from "./state/StateArraySample2"
-import StateArraySample3 from "./state/StateArraySample3"
+import CategoryList from "./effectSample/CategoryList"
+import EffectSample from "./effectSample/EffectSample"
+import SupplierList from "./effectSample/SupplierList"
 
 function App() {
   return <>
-   <StateArraySample3/>
+   <SupplierList/>
   </>
 }
 

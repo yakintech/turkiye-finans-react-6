@@ -1,17 +1,10 @@
 import { BrowserRouter, Link, Route, Routes } from "react-router-dom"
-import Home from "./routerSample/Home"
-import About from "./routerSample/About"
-import Contact from "./routerSample/Contact"
-import Blog from "./routerSample/Blog"
-import Suppliers from "./routerSample/Suppliers"
-import SupplierDetail from "./routerSample/SupplierDetail"
 import { routes } from "./routerSample/routes"
-import BasicComponents from "./materialSample/BasicComponents"
-import GridSample from "./materialSample/GridSample"
+import DataGridSample from "./materialSample/DataGridSample"
 
 function App() {
 
-  return <GridSample/>
+  return <DataGridSample/>
 
   return <>
     <header>

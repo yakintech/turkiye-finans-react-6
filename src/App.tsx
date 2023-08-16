@@ -5,8 +5,14 @@ import Contact from "./routerSample/Contact"
 import Blog from "./routerSample/Blog"
 import Suppliers from "./routerSample/Suppliers"
 import SupplierDetail from "./routerSample/SupplierDetail"
+import { routes } from "./routerSample/routes"
+import BasicComponents from "./materialSample/BasicComponents"
+import GridSample from "./materialSample/GridSample"
 
 function App() {
+
+  return <GridSample/>
+
   return <>
     <header>
       <ul>
@@ -15,18 +21,15 @@ function App() {
         <li><Link to='/contact'>Contact</Link></li>
         <li><Link to='/blog'>Blog</Link></li>
         <li><Link to='/suppliers'>Suppliers</Link></li>
-
       </ul>
     </header>
 
     <Routes>
-      <Route path="/" element={<Home />}></Route>
-      <Route path="/about" element={<About />}></Route>
-      <Route path="/contact" element={<Contact />}></Route>
-      <Route path="/blog" element={<Blog />}></Route>
-      <Route path="/suppliers" element={<Suppliers/>}></Route>
-      <Route path='/suppliers/:id' element={<SupplierDetail/>}></Route>
-
+      {
+        routes.map((item:any) => {
+          return <Route path={item.path} element={item.element}></Route>
+        })
+      }
     </Routes>
 
     <footer>

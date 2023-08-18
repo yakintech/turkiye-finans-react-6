@@ -3,10 +3,12 @@ import { routes } from "./routerSample/routes"
 import DataGridSample from "./materialSample/DataGridSample"
 import { useContext } from "react"
 import { CartContext, CartContextType } from "./context/CartContext"
+import RefHookSample from "./otherHooks/RefHookSample"
+import AddProduct from "./hookForm/AddProduct"
 
 function App() {
 
-  console.log("App component rendered!");
+  return <AddProduct/>
 
   const { cart, setcart } = useContext(CartContext) as CartContextType;
 

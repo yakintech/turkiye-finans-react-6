@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { counterContext, CounterContextType } from '../context/CounterContext';
 
 function Home() {
-  return (
-    <h1>Home</h1>
+  const {counter, setcounter} = useContext(counterContext) as CounterContextType;
+
+  return (<>
+    <h1>{counter}</h1>
+    <button onClick={() => setcounter(counter - 1)}>Decrease</button>
+  </>
   )
 }
 

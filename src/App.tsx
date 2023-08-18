@@ -14,6 +14,7 @@ function App() {
         <li><Link to='/blog'>Blog</Link></li>
         <li><Link to='/suppliers'>Suppliers</Link></li>
         <li><Link to='/products'>Products</Link></li>
+        <li><Link to='/counter'>Counter</Link></li>
       </ul>
     </header>
 

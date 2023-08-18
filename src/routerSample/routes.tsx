@@ -1,3 +1,4 @@
+import CounterPage from "../context/CounterPage";
 import DataGridSample from "../materialSample/DataGridSample";
 import ProductDetail from "../materialSample/ProductDetail";
 import About from "./About";
@@ -40,5 +41,9 @@ export const routes = [
     {
         path:'/products/:id',
         element: <ProductDetail/>
+    },
+    {
+        path:'/counter',
+        element: <CounterPage/>
     }
 ]

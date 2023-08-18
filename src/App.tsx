@@ -5,10 +5,11 @@ import { useContext } from "react"
 import { CartContext, CartContextType } from "./context/CartContext"
 import RefHookSample from "./otherHooks/RefHookSample"
 import AddProduct from "./hookForm/AddProduct"
+import AddCategory from "./hookForm/AddCategory"
 
 function App() {
 
-  return <AddProduct/>
+  return <AddCategory/>
 
   const { cart, setcart } = useContext(CartContext) as CartContextType;
 

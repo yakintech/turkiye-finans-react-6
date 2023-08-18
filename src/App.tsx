@@ -4,16 +4,16 @@ import DataGridSample from "./materialSample/DataGridSample"
 
 function App() {
 
-  return <DataGridSample/>
 
   return <>
     <header>
-      <ul>
+      <ul style={{display:'flex', justifyContent:'space-between'}}>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
         <li><Link to='/contact'>Contact</Link></li>
         <li><Link to='/blog'>Blog</Link></li>
         <li><Link to='/suppliers'>Suppliers</Link></li>
+        <li><Link to='/products'>Products</Link></li>
       </ul>
     </header>
 

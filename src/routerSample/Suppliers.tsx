@@ -15,7 +15,18 @@ function Suppliers() {
                 setsuppliers(res.data);
             })
 
+        var interval = setInterval(() => {
+            console.log('Merhaba!');
+        }, 1000);
+
+        return () => {
+            clearInterval(interval);
+          }
+
     }, [])
+
+
+
 
 
     const goToDetail = (id?: number, item?: Supplier) => {

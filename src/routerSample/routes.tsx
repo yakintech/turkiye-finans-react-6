@@ -1,3 +1,5 @@
+import DataGridSample from "../materialSample/DataGridSample";
+import ProductDetail from "../materialSample/ProductDetail";
 import About from "./About";
 import Blog from "./Blog";
 import Contact from "./Contact";
@@ -30,5 +32,13 @@ export const routes = [
     {
         path:'/suppliers/:id',
         element: <SupplierDetail/>
+    },
+    {
+        path:'/products',
+        element: <DataGridSample/>
+    },
+    {
+        path:'/products/:id',
+        element: <ProductDetail/>
     }
 ]

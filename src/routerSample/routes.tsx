@@ -1,4 +1,6 @@
+import Cart from "../context/Cart";
 import CounterPage from "../context/CounterPage";
+import ProductPage from "../context/ProductPage";
 import DataGridSample from "../materialSample/DataGridSample";
 import ProductDetail from "../materialSample/ProductDetail";
 import About from "./About";
@@ -45,5 +47,13 @@ export const routes = [
     {
         path:'/counter',
         element: <CounterPage/>
+    },
+    {
+        path:'/productspage',
+        element: <ProductPage/>
+    },
+    {
+        path:'/cart',
+        element:<Cart/>
     }
 ]
